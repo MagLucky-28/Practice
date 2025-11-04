@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Drill 2</title>
+
+	<style>
+		body{
+			text-align: left;
+			font-family: Gill Sans MT;
+			background-color: #bfd8ff;
+			word-break: 40%;
+
+		}
+		.form-container{
+			width: 60%;
+			padding: 15px;
+			margin: auto;
+			display:block;
+			background: #e3c3f7;
+			border: 20px solid #6508a3;
+			border-radius: 10px;
+			align-content: center;
+		}
+
+		.labels{
+			font-family: Gill Sans MT;
+			font-size: 20px;
+			font-weight: bolder;
+			color: red;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<form>
+			<label div class="labels" for="text">First Name</label>
+			<input type="text" id="text" name="text">
+
+			<label div class="labels" for="text">Middle Name</label>
+			<input type="text" if="text" name="text">
+
+			<label div class="labels" for="text">Surname</label>
+			<input type="text" if="text" name="text"><br>
+
+			<label div class="labels" for="gender">Gender</label>
+			<select id="gender" name="gender">
+				<option value="Female">Female</option>
+				<option value="Male">Male</option>
+				<option value="Rather Not Say">Rather Not Say</option>
+			</select>
+
+			<label div class="labels" for="number">Age</label>
+			<input type="number" if="number" name="number"><br>
+
+			<label div class="labels">Section</label><br>
+			<input type="radio" id="option1" name="radio">
+			<label for="option1" style="display: inline;">Emerald</label> <br>
+			<input type="radio" id="option2" name="radio">
+			<label for="option2" style="display: inline;">Ruby</label> <br>
+			<input type="radio" id="option3" name="radio">
+			<label for="option3" style="display: inline;">Sapphire</label> <br>
+
+			<label div class="labels">Allergies</label><br>
+			<input type="checkbox" id="check1" name="check1">
+			<label for="check1">Seafoods</label><br>
+			<input type="checkbox" id="check2" name="check2">
+			<label for="check2">Nuts</label><br>
+			<input type="checkbox" id="check3" name="check3">
+			<label for="check3">Soya</label><br>
+
+			<div class="form-buttons">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			
+			</div>
+			
+		</form>
+	</div>
+
+</body>
+</html>
